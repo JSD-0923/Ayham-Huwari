@@ -168,35 +168,6 @@ export class doublyLinkedList {
               return false;
             }
           }
-
-
-        /*
-      const newNode = new Node(val);  // Create a new node with the given value
-      if (!this.head) {
-        // If the list is empty, set the head and tail to the new node
-        this.head = newNode;
-        this.tail = newNode;
-        return true;
-      } 
-      else {
-        if(index<=this.length){
-          let indexPointer = this.head;//create a new node that points to the head
-          //move that node to the desired index
-          for(let i=0; i<index; i++){
-            indexPointer=indexPointer.next;
-          }
-          //add the new node
-          indexPointer.prev.next=newNode;
-          newNode.prev=indexPointer.prev;
-          indexPointer.prev=newNode;
-          newNode.next=indexPointer;
-          return true;
-        }
-        else{
-          console.log("the index is not valid");
-        }
-    }  */
-
    }
    remove(index) {
     if (!this.head) {
